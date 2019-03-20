@@ -1,6 +1,14 @@
 body {
- background-image: url('/map.png');
+  background-color: #87CEEB;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  font-size: 10em;
 }
 
-h1 {text-align: center;
+p {
+  align-items: stretch;
+  flex-wrap: wrap;
 }
