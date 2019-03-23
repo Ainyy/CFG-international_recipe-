@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(255, 213, 213);
+  padding-left: 67px;
+  padding-right: 67px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: monospace;
+  align-items: center;
+}
+
+.unspoken rules {
+  max-width: 1000px
+  margin:auto;
+}
+
+h1 {
+  font-size: 70px;
+  word-break: break-all;
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  padding: 20px;
+}
+.column {
+  float: left;
+  width: 50%;
+  align-items: center;
+}
+.image_1{
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row_2:after {
+  content: normal;
+  display: table;
+  clear: both;
+}
+.row_3:after{
+  content: normal;
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
