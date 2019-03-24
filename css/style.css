@@ -1,0 +1,138 @@
+.Navigation-bar {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  o
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.menu {
+  display: inline-block;
+  font-family: fantasy;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: fantasy;
+}
+
+.menu-content a:hover {background-color: #f1f1f1}
+
+.menu:hover .menu-content {
+  display: block;
+}
+
+.header {
+  margin-left: 0px;
+}
+
+.about {
+  font-family: fantasy;
+  text-align: justify;
+  border: solid white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 250px;
+  background-color: #095DC0;
+  opacity: 0.75;
+  color: white;
+  padding: 10px;
+
+}
+
+.Hi {
+  text-align: center;
+}
+
+body {
+  background-image: url("map.png");
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.Countries {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.75;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #095DC0;
+  border-radius: 200px;
+}
+
+.text {
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.feedback {
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
