@@ -178,5 +178,7 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .
+  .Countries{
+    width: 100%;
+  }
 }
