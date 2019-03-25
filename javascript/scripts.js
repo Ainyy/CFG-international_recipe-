@@ -1,3 +1,3 @@
-function welcome() {alert("Hello"+" "+"world");}
+function revealMessage() {
+  document.getElementById("hiddenMessage").style.display = 'block';
 }
-welcome();
