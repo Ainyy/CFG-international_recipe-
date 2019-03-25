@@ -179,5 +179,12 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .
+  .header{
+    width: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about1{
+    width: 33%;
+  }
 }
