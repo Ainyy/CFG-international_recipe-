@@ -59,7 +59,38 @@ p{
   display:table;
   clear:both;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  padding-left: 600px;
+  padding-right: 600px;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
 
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  text-align: center;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+li a:hover {
+  background-color: #111;
+}
 @media screen and (max-width:600px) {
 .column{
   width: 100%;
