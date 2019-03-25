@@ -1,1 +1,0 @@
-alert ("Kedu, Baoni, Sannu :-)");
