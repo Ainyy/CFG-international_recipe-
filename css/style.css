@@ -182,7 +182,7 @@ button {
     width: 100%;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 800px) {
   .about1 {
     width: 100%;
   }
