@@ -1,73 +1,49 @@
-.Navigation-bar {
-  position: sticky;
-  position: -webkit-sticky;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  o
-  background-color: #333;
+  position: fixed;
+  padding-left: 550px;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
 
 li {
   float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  text-align: center;
 }
 
-li a, .dropbtn {
-  display: inline-block;
+
+li a {
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.menu {
-  display: inline-block;
   font-family: fantasy;
 }
 
-.menu-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.menu-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: fantasy;
-}
-
-.menu-content a:hover {background-color: #f1f1f1}
-
-.menu:hover .menu-content {
-  display: block;
+li a:hover {
+  background-color: #111;
 }
 
 .header {
   margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 0;
 }
 
-.about {
+.about1 {
   font-family: fantasy;
   text-align: justify;
   border: solid white;
   margin-left: 250px;
   margin-right: 250px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
+  margin-top: 100px;
   background-color: #095DC0;
   opacity: 0.75;
   color: white;
@@ -89,6 +65,7 @@ body {
 .Countries {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -126,6 +103,50 @@ body {
   position: absolute;
 }
 
+.Team1 {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Team {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+
+}
+
+.AboutUs {
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white
+}
+
+
+.text2 {
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text3 {
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 20px;
+}
+
 .feedback {
   color: white;
   text-align: center;
@@ -133,6 +154,26 @@ body {
   text-decoration: none;
 }
 
-iframe {
-  border: none;
+#hiddenMessage {
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+button {
+  font-family: fantasy;
+  font-size: 50px;
+  border-radius: 20%;
+  background-color: #81F7F3;
+  opacity: 50%;
+}
+
+.clickme {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .
 }

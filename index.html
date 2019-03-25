@@ -4,78 +4,108 @@
   <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="javascript" href="javascript/scripts.js">
-
-    <div class="Navigation-bar">
-      <ul>
-        <li class="menu">
-          <a href="javascript:void(0)" class="dropbtn">Menu</a>
-          <div class="menu-content">
-            <a href="#">Britain</a>
-            <a href="#">Malaysia</a>
-            <a href="#">Nigeria</a>
-            <a href="#">Romania</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min. css" crossorigin="anonymous">
 
     <title>UNSPOKEN RULES</title>
+    <script src="javascript/scripts.js"></script>
 
   </head>
 
   <body>
 
-    <div class="header">
+    <div class="header" id="header">
       <h1>
         <img src="final hhh.png" alt="" width="1500">
       </h1>
     </div>
 
-    <div class="about">
-      <div class="Hi"><h1>Hi!</h1></div>
-      <p>We are a group of four students from the University of Leeds who come from diverse backgrounds. We thought it would be fun to share some "unspoken rules" about our home countries. Please note: these are not the absolute do's and don'ts but they are only formed from our personal experiences and should prevent travellers from getting odd stares from the locals! For now, we will cover four countries but if you want us to cover more, feel free to have your say in the feedback form (can be found at the bottom of the website). Cheers!
-      </p>
-
+    <div class="clickme">
+      <button onclick="revealMessage()">Click me!</button>
+      <p id="hiddenMessage">This is just a button to prove we can use this :)</p>
     </div>
 
-    <div class="Countries">
-      <a href="#">
-        <div class="container">
-          <img src="britain.png" alt="Britain" width="250" height="250">
-            <div class="overlay">
-              <div class="text">Britain</div>
-            </div>
-        </div></a>
-      <a href="#">
-        <div class="container">
-          <img src="malaysia.png" alt="Malaysia" width="250" height="250">
-            <div class="overlay">
-              <div class="text">Malaysia</div>
-            </div>
-        </div></a>
-      <a href="#">
-        <div class="container">
-          <img src="nigeria.png" alt="Nigeria" width="250" height="250">
-            <div class="overlay">
-              <div class="text">Nigeria</div>
-            </div>
-        </div></a>
-      <a href="#">
-        <div class="container">
-          <img src="romania.png" alt="Romania" width="250" height="250">
-            <div class="overlay">
-              <div class="text">Romania</div>
-            </div>
-        </div></a>
+    <div class="about" id=about>
+      <div class="about1">
+        <div class="Hi"><h1>Hi!</h1></div>
+        <p>We are a group of four students from the University of Leeds who come from diverse backgrounds. We thought it would be fun to share some "unspoken rules" about our home countries. Please note: these are not the absolute do's and don'ts but they are only formed from our personal experiences and should prevent travellers from getting odd stares from the locals! For now, we will cover four countries but if you want us to cover more, feel free to have your say in the feedback form (can be found at the bottom of the website). Cheers!
+        </p>
+      </div>
+
+      <div class="Countries">
+        <a href="#">
+          <div class="container">
+            <img src="britain.png" alt="Britain" width="250" height="250">
+              <div class="overlay">
+                <div class="text">Britain</div>
+              </div>
+          </div></a>
+        <a href="Malaysia.html">
+          <div class="container">
+            <img src="malaysia.png" alt="Malaysia" width="250" height="250">
+              <div class="overlay">
+                <div class="text">Malaysia</div>
+              </div>
+          </div></a>
+        <a href="#">
+          <div class="container">
+            <img src="nigeria.png" alt="Nigeria" width="250" height="250">
+              <div class="overlay">
+                <div class="text">Nigeria</div>
+              </div>
+          </div></a>
+        <a href="#">
+          <div class="container">
+            <img src="romania.png" alt="Romania" width="250" height="250">
+              <div class="overlay">
+                <div class="text">Romania</div>
+              </div>
+          </div></a>
+        </div>
+      </div>
+
+      <div class="Team1" id=Team1>
+        <div class="AboutUs"><h1>Who are We?</h1></div>
+        <div class="Team">
+          <div class="container2">
+            <img src="IMG_6617.JPG" alt="" width="250" height="250" class=image>
+            <div class="text2">Aina</div>
+            <div class="text3">First Year Undergraduate</div>
+          </div>
+          <div class="container2">
+            <img src="uche.jpeg" alt="" width="250" height="250" class=image>
+              <div class="text2">Uche</div>
+              <div class="text3">Second Year Undergraduate</div>
+          </div>
+          <div class="container2">
+            <img src="Ainyy2.jpg" alt="" width="250" height="250" class=image>
+            <div class="text2">Ainyy</div>
+            <div class="text3">Third Year Undergraduate</div>
+          </div>
+          <div class="container2">
+            <img src="Paula.jpg" alt="" width="250" height="250" class=image>
+            <div class="text2">Paula</div>
+            <div class="text3">Master</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Navigation-bar">
+      <ul class="Navigation">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">Countries</a></li>
+        <li><a href="#Team1">About</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
     </div>
 
   <a href="https://goo.gl/forms/4gYJ9cNJHsoO7NHt2" class="feedback">
-    <div class="feedback">
+    <div class="feedback" id="feedback">
         <h2>Feedback</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSef1u25u6Rp_QsSTS3JM5mHel37J-gHEuyBBXirQ44XHkhcwA/viewform?embedded=true" width="640" height="687" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div></a>
 
   </body>
